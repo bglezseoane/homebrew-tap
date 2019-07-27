@@ -2,9 +2,9 @@ class Gitcher < Formula
   include Language::Python::Virtualenv
 
   desc "The git profile switcher"
-  homepage "https://gitlab.com/GlezSeoane/gitcher"
-  url "https://gitlab.com/GlezSeoane/gitcher/-/archive/v2.1/gitcher-v2.1.tar.gz"
-  sha256 "936aae11160d86dad57c023452e24e605be5b4024009af44bb201c15e0e567c1"
+  homepage "https://github.com/GlezSeoane/gitcher"
+  url "https://github.com/GlezSeoane/gitcher/archive/v2.2.tar.gz"
+  sha256 "d0aa9b50802a7374b20a9c6dadbc5482f03cf6dbb14b5ee6f0f20f0ef2b1b1b0"
   
   depends_on "python"
 
