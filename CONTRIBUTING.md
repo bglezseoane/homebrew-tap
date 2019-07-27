@@ -15,6 +15,6 @@ The following is a set of guidelines for contributing to this project. These are
 🔥 :fire: when removing formulae + "Clean"
 ```
 
-- Then input the name of the keg followed of its version number.
+- Then input the name of the keg followed of its version number. In updating cases write "to" between the formula name and the version code.
 - Limit the first line to 72 characters or less. And do not close with a dot.
 - If necessary, leave a white line and input comments.
