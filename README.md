@@ -9,3 +9,4 @@ Use `brew install glezseoane/homebrew-tap/<formula>` to install a keg.
 Own maintained projects.
 
 - `gitcher`: The git profile switcher. View [homepage](https://github.com/glezseoane/gitcher).
+- `gitfind`: Find local git repositories. View [homepage](https://github.com/glezseoane/gitfind).
