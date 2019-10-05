@@ -3,8 +3,8 @@ class Gitcher < Formula
 
   desc "The git profile switcher"
   homepage "https://github.com/glezseoane/gitcher"
-  url "https://github.com/glezseoane/gitcher/archive/v3.0.tar.gz"
-  sha256 "4513a2c875801b4251f9b698d1cf58a10eadd7d42c72b04b1a5440ed8293a1d6"
+  url "https://github.com/glezseoane/gitcher/archive/v3.1.tar.gz"
+  sha256 "0d13a4d66e1e4c5318d1a8d0256ca0caaf0410f5fdc5b894d351828075ae6fa4"
   
   depends_on "python"
 
