@@ -1,8 +1,8 @@
 class Gitfind < Formula
   desc "Find local git repositories"
-  homepage "https://gitlab.com/GlezSeoane/gitfind"
-  url "https://gitlab.com/GlezSeoane/gitfind/-/archive/v1.4/gitfind-v1.4.tar.gz"
-  sha256 "3471c8844b91330c29d6eb48c5e62ac4e54a702c7d3d72404e7c6f72bb846db1"
+  homepage "https://github.com/glezseoane/gitfind"
+  url "https://github.com/glezseoane/gitfind/archive/v1.5.tar.gz"
+  sha256 "923f1f3824f739e9207059cb70de819ed20b7a92efad637abf4c3408a62656ed"
 
   def install
     bin.install "gitfind"
