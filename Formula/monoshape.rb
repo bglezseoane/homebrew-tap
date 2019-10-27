@@ -2,17 +2,17 @@ class Monoshape < Formula
   include Language::Python::Virtualenv
 
   desc "Extracts monochromatic shapes"
-  homepage "https://github.com/GlezSeoane/monoshape"
-  url "https://github.com/GlezSeoane/monoshape/archive/v1.1.tar.gz"
-  sha256 "91cdcca3ad2faec85d8ef015bfefe92f7f84a9649864c87f2a81869afe45e500"
+  homepage "https://github.com/glezseoane/monoshape"
+  url "https://github.com/glezseoane/monoshape/archive/v1.2.tar.gz"
+  sha256 "0780833c7cae70577906babed094bc0cd1a829f3806c3122b22c5188e0c60e21"
   
   depends_on "jpeg" => :build
   depends_on "librsvg"
   depends_on "python"
 
   resource "Pillow" do
-    url "https://github.com/GlezSeoane/Pillow/archive/6.1.0.tar.gz"
-    sha256 "9a3a613e7780362605b10765274389b3e9a6fe3201dd2bceeb422d45c5c9ba18"
+    url "https://github.com/python-pillow/Pillow/archive/6.2.0.tar.gz"
+    sha256 "5d8c0d6fc1e4b662f0e7c40ed83e06367a90e8b11b227d5141b51badae56248e"
   end
   resource "filetype" do
     url "https://files.pythonhosted.org/packages/e8/53/298887541ae479f8467d4d23e028c6d15f9811da25c582297fd3869666b7/filetype-1.0.5.tar.gz"
