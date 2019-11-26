@@ -2,10 +2,10 @@ class Monoshape < Formula
   include Language::Python::Virtualenv
 
   desc "Extracts monochromatic shapes"
-  homepage "https://github.com/glezseoane/monoshape"
-  url "https://github.com/glezseoane/monoshape/archive/v1.2.tar.gz"
+  homepage "https://github.com/bglezseoane/monoshape"
+  url "https://github.com/bglezseoane/monoshape/archive/v1.2.tar.gz"
   sha256 "0780833c7cae70577906babed094bc0cd1a829f3806c3122b22c5188e0c60e21"
-  
+
   depends_on "jpeg" => :build
   depends_on "librsvg"
   depends_on "python"
@@ -48,4 +48,3 @@ class Monoshape < Formula
     system "python", "-c", "'import monoshape.__main__'"
   end
 end
-

@@ -2,10 +2,10 @@ class Folstamp < Formula
   include Language::Python::Virtualenv
 
   desc "Generate custom macOS folder icons"
-  homepage "https://github.com/glezseoane/folder-stamp"
-  url "https://github.com/glezseoane/folder-stamp/archive/v1.1.tar.gz"
+  homepage "https://github.com/bglezseoane/folder-stamp"
+  url "https://github.com/bglezseoane/folder-stamp/archive/v1.1.tar.gz"
   sha256 "82cc1a3a45d37cbb40beac6a64e4830de46a447e74f2452172783aee0ba160d0"
-  
+
   depends_on "jpeg" => :build
   depends_on "librsvg"
   depends_on "python"
