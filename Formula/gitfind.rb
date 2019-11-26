@@ -1,12 +1,11 @@
 class Gitfind < Formula
   desc "Find local git repositories"
   homepage "https://github.com/glezseoane/gitfind"
-  url "https://github.com/glezseoane/gitfind/archive/v1.5.tar.gz"
-  sha256 "923f1f3824f739e9207059cb70de819ed20b7a92efad637abf4c3408a62656ed"
+  url "https://github.com/glezseoane/gitfind/archive/v2.0.tar.gz"
+  sha256 "626b54b0441e1af7f61ca2e94ea30fa120a061c55e5fb700d855b918cf62de7d"
 
   def install
-    bin.install "gitfind"
-    man1.install "docs/gitfind.1"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 
   test do
