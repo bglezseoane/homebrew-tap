@@ -1,8 +1,9 @@
-# homebrew-tap
+# Homebrew tap
 
-🍺 Homebrew tap for personal projects that I maintain. Some formulas also can to be included in the Homebrew core tap.
+Homebrew tap for personal projects that I maintain.
 
-Use `brew install glezseoane/tap/<formula>` to install a keg.
+Use `brew install bglezseoane/tap/<formula>` to install a keg.
+
 
 ## Catalog of project formulae
 
