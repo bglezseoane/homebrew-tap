@@ -1,17 +1,18 @@
 class Fwitness < Formula
   include Language::Python::Virtualenv
 
-  desc "A program to consolidate Mac OS Finder and Spotlight metadata between several machines"
+  desc "Consolidate Mac OS Finder metadata between several machines"
   homepage "https://github.com/bglezseoane/fwitness"
-  url "https://files.pythonhosted.org/packages/9e/67/f2316c5d1a34b1a9f6d94f2215489da76c31209e6b357330e121aadf29c1/fwitness-0.1.dev2.tar.gz"
-  sha256 "36c632f97b256b3ea250642de7aecb2b7fe93be99f727a16d9f7cdb0d0652425"
+  url "https://files.pythonhosted.org/packages/2c/28/48316f7751dc6c7eede1500a8a9c2e7eb2f7eb513e9ccd551e170fa9bf05/fwitness-0.2.dev1.tar.gz"
+  sha256 "a02882b8c209c7ba3464c8eda542486c29d474bed0a8e059c0b27d604119b55b"
+  version "0.2.dev1"
 
   depends_on "python@3.8"
   depends_on "tag"
 
   def install
     venv = virtualenv_create(libexec, "python3")
-    system libexec/"bin/python3", "setup.py", "install"
+    system libexec/"bin/pip", "install", "-r", "requirements.txt"
     system libexec/"bin/pip", "uninstall", "-y", "fwitness"
     venv.pip_install_and_link buildpath
   end
