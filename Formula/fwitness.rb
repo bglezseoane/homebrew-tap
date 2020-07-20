@@ -3,9 +3,9 @@ class Fwitness < Formula
 
   desc "Consolidate Mac OS Finder metadata between several machines"
   homepage "https://github.com/bglezseoane/fwitness"
-  url "https://files.pythonhosted.org/packages/a1/ec/a432a020690949429b3491a208b905a1fd9e2953656fb5fb713b95794de1/fwitness-0.4.dev6.tar.gz"
-  sha256 "578d7aedc187aa641d417f95cd81075d8a664213c8db0fc777c22416886d1d44"
-  version "0.4.dev6"
+  url "https://files.pythonhosted.org/packages/5b/52/12218cfe7c5348b5b7b9db81640a0c5b4ae5188f1fe1f10bb79482c80785/fwitness-0.5.dev1.tar.gz"
+  sha256 "b95ecee380deab76f66867d5f10167083cd8ccd87d487a25e5edbd1fc1b7ee37"
+  version "0.5.dev1"
 
   depends_on "python@3.8"
   depends_on "tag"
