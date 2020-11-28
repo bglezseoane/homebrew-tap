@@ -9,7 +9,8 @@ Use `brew install bglezseoane/tap/<formula>` to install a keg.
 
 Own maintained projects.
 
-- `folstamp`: Generate custom macOS folder icons. View [homepage](https://github.com/glezseoane/folder-stamp).
-- `gitcher`: The git profile switcher. View [homepage](https://github.com/glezseoane/gitcher).
-- `gitfind`: Find local git repositories. View [homepage](https://github.com/glezseoane/gitfind).
-- `monoshape`: Extracts monochromatic shapes. View [homepage](https://github.com/glezseoane/monoshape).
+- `finder-tags-butler`: Synchronize Mac OS Finder tags between several machines. View [homepage](https://github.com/bglezseoane/finder-tags-butler).
+- `folstamp`: Generate custom Mac OS folder icons. View [homepage](https://github.com/bglezseoane/folder-stamp).
+- `gitcher`: The git profile switcher. View [homepage](https://github.com/bglezseoane/gitcher).
+- `gitfind`: Find local git repositories. View [homepage](https://github.com/bglezseoane/gitfind).
+- `monoshape`: Extracts monochromatic shapes. View [homepage](https://github.com/bglezseoane/monoshape).
