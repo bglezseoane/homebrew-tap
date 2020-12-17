@@ -3,9 +3,9 @@ class FinderTagsButler < Formula
 
   desc "Synchronize Mac OS Finder tags between several machines"
   homepage "https://github.com/bglezseoane/finder-tags-butler"
-  url "https://files.pythonhosted.org/packages/04/1a/919c13b4843938e5c87bfbcc81c32ae685b4a37a98126bf979a9fd57e926/finder-tags-butler-0.1.dev1.tar.gz"
-  version "0.1.dev1"
-  sha256 "9dcb6215a127583e36c48455c5bab1ff2f90b4ff2b50fd75000d17f631c3c984"
+  url "https://files.pythonhosted.org/packages/65/35/261dd1ba8634e3373599e9ee9edcf6e8521c16067344eaafe3e0e54d2135/finder-tags-butler-0.1.dev2.tar.gz"
+  version "0.1.dev2"
+  sha256 "93b2d396d9c13a67e8d7e9a492bb9f4e2d11e443ed061da83bb25aa05e1474b2"
 
   depends_on "python@3.8"
   depends_on "tag"
