@@ -8,6 +8,7 @@ Homebrew tap for personal projects that I (Borja González Seoane) maintain or i
 
 Use `brew install bglezseoane/tap/<formula>` to install a formula.
 
+- `bingwallscrapper`: Bing.com wallpaper scrapper. View [homepage](https://github.com/bglezseoane/bingwallscrapper).
 - `cpcalendars`: Really simple CLI app to copy Mac OS Calendar.app calendars sources to other location. View [homepage](https://github.com/bglezseoane/cpcalendars).
 - `finder-tags-butler`: Synchronize Mac OS Finder tags between several machines. View [homepage](https://github.com/bglezseoane/finder-tags-butler).
 - `folstamp`: Generate custom Mac OS folder icons. View [homepage](https://github.com/bglezseoane/folder-stamp).
