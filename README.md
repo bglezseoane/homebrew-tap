@@ -14,6 +14,7 @@ Use `brew install bglezseoane/tap/<formula>` to install a formula.
 - `folstamp`: Generate custom Mac OS folder icons. View [homepage](https://github.com/bglezseoane/folder-stamp).
 - `gitcher`: The git profile switcher. View [homepage](https://github.com/bglezseoane/gitcher).
 - `gitfind`: Find local git repositories. View [homepage](https://github.com/bglezseoane/gitfind).
+- `jour`: Utility for a high-level machine maintenance journal. View [homepage](https://github.com/bglezseoane/jour).
 - `monoshape`: Extracts monochromatic shapes. View [homepage](https://github.com/bglezseoane/monoshape).
 
 
