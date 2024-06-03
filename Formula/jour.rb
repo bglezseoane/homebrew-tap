@@ -3,8 +3,8 @@ class Jour < Formula
 
   desc "Utility for a high-level machine maintenance journal"
   homepage "https://github.com/bglezseoane/jour"
-  url "https://files.pythonhosted.org/packages/7b/47/25a82f8b56ded21210e413917f1765cd0606533a04f91cfa42c6d5c0d0ae/jour-2.0.1.tar.gz"
-  sha256 "d547948edbf3e1d8be3d9655b972916f9bcecb9e41f9567ff60ab627602caae0"
+  url "https://files.pythonhosted.org/packages/b5/e9/8cadbb9571129c85bd4a52c4bd65aa1f4f21a5810697725eced65c86f2f8/jour-2.0.2.tar.gz"
+  sha256 "7a0869b0ee0f39f26bc967be45f36049c30d47356e0279ef5ef12e072f68fa85"
 
   depends_on "python@3.11"
 
